@@ -1,0 +1,29 @@
+.container.contenedor-detalle{
+    display: flex;
+    justify-content: center;
+}
+
+.img-detalle{
+    max-height: 500px;
+}
+
+.contenedor_article{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 5rem;
+    padding-right: 2rem;
+}
+
+.contenedor_article-header{
+    width: -webkit-fill-available;
+}
+
+.header-titulo{
+    text-align: left;
+}
+
+.contendor_article-section-p{
+    text-align: left;
+}

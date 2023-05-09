@@ -4,7 +4,7 @@
     background: linear-gradient(to bottom, var(--bs-gray-800), var(--bs-gray-600));
 }
 
-img{
+.logoTienda{
     border-radius: 50%;
     width: 85px;
     box-shadow: 0px 0px 20px 0px var(--bs-gray-600);
@@ -25,6 +25,8 @@ img{
 .nav-link{
     color: var(--bs-white) !important;
     border-radius: 20px;
+    font-size: 18px !important;
+    font-weight: 500 !important;
 }
 
 .nav-link:hover{

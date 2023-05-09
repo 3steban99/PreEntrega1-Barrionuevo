@@ -1,0 +1,22 @@
+.container.Contenedor{
+    max-width:max-content;
+    padding: .5rem;
+}
+
+
+.Contenedor__Controles{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: .5rem;
+    border: solid 1px var(--bs-gray-800);
+    border-radius: 8px;
+}
+
+
+.btn.btn-outline-secondary{
+    font-size: 30px;
+    padding: 0 5px 0 5px;
+    border: none;
+    
+}

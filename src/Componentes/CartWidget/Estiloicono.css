@@ -1,5 +1,12 @@
-i{
+.bi{
     font-size: 30px;
+    color: var(--bs-white);
+
 }
 
+
+
+.bi:hover{
+    color: var(--bs-gray-800);
+}
 

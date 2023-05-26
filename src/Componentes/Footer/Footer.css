@@ -1,4 +1,5 @@
 .footer{
     background: linear-gradient(to bottom, var(--bs-gray-600), var(--bs-gray-800));
-    color: var(--bs-white)
+    color: var(--bs-white);
+    margin-top: auto;
 }

@@ -10,3 +10,8 @@
     color: var(--bs-gray-800);
 }
 
+
+.icon{
+    display: flex;
+    align-items: center;
+}

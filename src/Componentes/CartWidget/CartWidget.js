@@ -8,10 +8,17 @@ const CartWidget = () =>{
 
     const {totalQuantity} = useContext(CartContext)
 
+
+    if (totalQuantity() === 0){
+        return(
+            <></>
+        )
+    }
+
     return (
         <div class="icon">
-            <Link to='/cart' class="bi bi-cart4" style={{display: totalQuantity > 0 ? 'block' : 'none'}}></Link>
-            { totalQuantity }
+            <Link to='/cart' class="bi bi-cart4" style={{display: totalQuantity() > 0 ? 'block' : 'none'}}></Link>
+            { totalQuantity() }
         </div>
     )
 }

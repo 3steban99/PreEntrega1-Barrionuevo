@@ -4,11 +4,23 @@ import './Home.css'
 const Home = () => {
     return (
         <div>
-            <ControlledCarousel/>
-            <h1>BIENVENIDO AL HOME</h1>
-            <h3>Navege con el boton de Productos arriba</h3>
-            <p>HOME EN DESARROLLO</p>
-            <p>FOOTER EN DESARROLLO</p>
+            <ControlledCarousel />
+            <div class='container'>
+                <div class='row row-cols-2'>
+                    <div class="col-md-6">
+                        <img class='img-home' src='https://i.ibb.co/LdhYfX9/tienda.jpg' alt='foto tienda'></img>
+                    </div>
+                    <div class="col-md-6">
+                        <img class='img-home' src='https://i.ibb.co/0qF2H6W/chaleco.jpg'></img>
+                    </div>
+                    <div class="col-md-6">
+                        <img class='img-home' src='https://i.ibb.co/0qF2H6W/chaleco.jpg'></img>
+                    </div>
+                    <div class="col-md-6">
+                        <img class='img-home' src='https://i.ibb.co/0qF2H6W/chaleco.jpg'></img>
+                    </div>
+                </div>
+            </div>
         </div>
     );
 }

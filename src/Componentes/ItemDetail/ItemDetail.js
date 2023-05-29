@@ -4,14 +4,14 @@ import './ItemDetail.css'
 import { Link } from "react-router-dom";
 import { CartContext } from "../../context/CartContext";
 
-const ItemDetail = ({id, name, img, category, description, price, stock}) => {
+const ItemDetail = ({ id, name, img, category, description, price, stock }) => {
 
     const [quantityAdded, setQuantityAdded] = useState(0)
 
-    const {addItem} = useContext(CartContext)
+    const { addItem } = useContext(CartContext)
 
 
-    const handledOnAdd = (quantity) =>{
+    const handledOnAdd = (quantity) => {
         setQuantityAdded(quantity)
 
         const item = {
@@ -23,7 +23,7 @@ const ItemDetail = ({id, name, img, category, description, price, stock}) => {
 
 
 
-    return(
+    return (
         <div class="container , contenedor-detalle">
             <picture>
                 <img src={img} alt={name} class="img-fluid img-detalle" ></img>
@@ -31,7 +31,7 @@ const ItemDetail = ({id, name, img, category, description, price, stock}) => {
             <article class='contenedor_article'>
                 <header class='contenedor_article-header'>
                     <h2 class='header-titulo'>{name}</h2>
-                    <hr class="mb-3"/>
+                    <hr class="mb-3" />
                 </header>
                 <section class='contendor_article-section'>
                     <p class='contendor_article-section-p'>

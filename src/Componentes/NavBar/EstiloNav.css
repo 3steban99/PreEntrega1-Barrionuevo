@@ -1,7 +1,9 @@
 .navbar{
     padding: 2rem;
     color: var(--bs-white);
-    background: linear-gradient(to bottom, var(--bs-gray-800), var(--bs-gray-600));
+    background: #fff;
+    border-top: .75px solid #000;
+    border-bottom: .75px solid #000;
 }
 
 .logoTienda{
@@ -23,16 +25,16 @@
 }
 
 .nav-link{
-    color: var(--bs-white) !important;
+    font-family: 'Open Sans', sans-serif;
+    color: #000 !important;
     border-radius: 20px;
     font-size: 18px !important;
     font-weight: 500 !important;
 }
 
 .nav-link:hover{
-    background: var(--bs-gray-600);
+    background: var(--bs-gray-200);
     border-radius: 20px;
-    color: var(--bs-gray-800);
 }
 
 .navbar-collapse{

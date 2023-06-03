@@ -1,9 +1,9 @@
 .img-home{
-    height: 800px;
-    width: 650px;
+    margin: 10px 0 10px 0;
 }
 
 .img-home:hover{
     filter: contrast(50%);
     cursor: pointer;
+    
 }

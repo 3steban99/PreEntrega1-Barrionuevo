@@ -1,0 +1,11 @@
+.col-products{
+    margin-bottom: 1.5rem;
+}
+
+@media screen and (max-width:575px) {
+    .col-12{
+        width: 350px !important;
+        margin: auto;
+        margin-bottom: 1.5rem;
+    }
+}

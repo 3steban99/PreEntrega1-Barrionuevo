@@ -1,0 +1,24 @@
+.container-preguntas{
+    margin-top: 100px;
+}
+
+
+.accordion-button:not(.collapsed){
+    background-color: #000 !important;
+    color: #fff !important;
+}
+
+.accordion-button:not(.collapsed)::after{
+    background-image: none !important;
+}
+
+.accordion-button:focus{
+    border-color: #000 !important;
+    box-shadow: none !important;
+}
+
+
+.preguntas-titulo{
+    text-align: left;
+    margin-bottom: 30px ;
+}

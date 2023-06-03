@@ -4,6 +4,7 @@ import ItemList from "../ItemList/ItemList";
 import { useParams } from "react-router-dom";
 import { getDocs, collection, query, where } from "firebase/firestore";
 import { db } from "../services/firebase/firebaseConfig";
+import './ItemListContainer.css'
 
 
 const ItemListContainer = ({ greeting }) => {
@@ -17,37 +18,37 @@ const ItemListContainer = ({ greeting }) => {
 
         const collectionRef = categoryId
             ? query(collection(db, 'products'), where('category', '==', categoryId))
-            : collection(db,'products')
+            : collection(db, 'products')
 
         getDocs(collectionRef)
             .then(response => {
-                const productsAdapted = response.docs.map(doc =>{
+                const productsAdapted = response.docs.map(doc => {
                     const data = doc.data()
-                    return {id: doc.id, ...data}
+                    return { id: doc.id, ...data }
                 })
                 setProducts(productsAdapted)
             })
             .catch(error => {
                 console.log(error)
             })
-            .finally(()=>{
+            .finally(() => {
                 setLoading(false)
             })
     }, [categoryId])
 
 
     return loading ? (
-        <div class="spinner-grow text-secondary" role="status">
-            <span class="visually-hidden">Cargando....</span>
-        </div>
+            <div class="spinner-grow text-secondary" role="status">
+                <span class="visually-hidden">Cargando...</span>
+            </div>
     )
-    :
-    (
-        <div>
-            <h1>{greeting}</h1>
-            <ItemList products={products} />
-        </div>
-    ) 
+        :
+        (
+            <div>
+                <h1>{greeting} </h1>
+                <ItemList products={products} />
+            </div>
+        )
 }
 
 export default ItemListContainer;

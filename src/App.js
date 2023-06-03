@@ -8,6 +8,9 @@ import Footer from './Componentes/Footer/Footer';
 import { CartProvider } from './context/CartContext';
 import Cart from './Componentes/Cart/Cart';
 import Checkout from './Componentes/Checkout/Checkout';
+import WhatsApp from './Componentes/services/WhatsAppLogo/WhatsApp';
+import Preguntas from './Componentes/Preguntas/Preguntas';
+import Contactos from './Componentes/Contactos/Contactos';
 
 function App() {
   return (
@@ -22,9 +25,12 @@ function App() {
             <Route path='/item/:itemId' element={<ItemDetailContainer />} />
             <Route path='/cart' element={<Cart />} />
             <Route path='/checkout' element={<Checkout />} />
+            <Route path='/preguntas' element={<Preguntas />} />
+            <Route path='/contactos' element={<Contactos />} />
             <Route path='*' element={<h1>404 NOT FOUND</h1>} />
           </Routes>
           <Footer />
+          <WhatsApp />
         </CartProvider>
       </BrowserRouter>
     </div>

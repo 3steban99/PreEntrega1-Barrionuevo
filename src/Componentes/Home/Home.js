@@ -1,5 +1,6 @@
 import ControlledCarousel from './Carousel/Carousel';
 import './Home.css'
+import { Link } from 'react-router-dom';
 
 const Home = () => {
     return (
@@ -8,16 +9,24 @@ const Home = () => {
             <div class='container'>
                 <div class='row row-cols-2'>
                     <div class="col-md-6">
-                        <img class='img-home' src='https://i.ibb.co/LdhYfX9/tienda.jpg' alt='foto tienda'></img>
+                        <Link to={'/verTodo'}>
+                            <img class='img-home img-fluid' src='https://i.ibb.co/rcyqrf2/products.jpg' alt='foto tienda'></img>
+                        </Link>
                     </div>
                     <div class="col-md-6">
-                        <img class='img-home' src='https://i.ibb.co/0qF2H6W/chaleco.jpg'></img>
+                        <Link to={'/category/ropa'}>
+                            <img class='img-home img-fluid' src='https://i.ibb.co/sJYyKCJ/prendas.jpg' alt='foto prenda'></img>
+                        </Link>
                     </div>
                     <div class="col-md-6">
-                        <img class='img-home' src='https://i.ibb.co/0qF2H6W/chaleco.jpg'></img>
+                        <Link to={'/category/sport'}>
+                            <img class='img-home img-fluid' src='https://i.ibb.co/Vg1dz6s/sports.jpg' alt='foto sport'></img>
+                        </Link>
                     </div>
                     <div class="col-md-6">
-                        <img class='img-home' src='https://i.ibb.co/0qF2H6W/chaleco.jpg'></img>
+                        <Link to={'/category/productos sports'}>
+                            <img class='img-home img-fluid' src='https://i.ibb.co/hy5qhjp/productos-Sports.jpg' alt='foto productos sports'></img>
+                        </Link>
                     </div>
                 </div>
             </div>

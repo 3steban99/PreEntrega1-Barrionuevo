@@ -3,6 +3,39 @@
 }
 
 .carousel{
-    margin-left: 8rem;
-    margin-right: 8rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+
+@media screen and (max-width:1700px) {
+    .carousel{
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+@media screen and (max-width:1400px) {
+    .imgCarousel{
+        max-height: 650px;
+    }
+    
+}
+@media screen and (max-width:992px) {
+    .imgCarousel{
+        max-height: 550px;
+    }
+    
+}
+
+@media screen and (max-width:768px) {
+    .imgCarousel{
+        max-height: 450px;
+    }
+    
+}
+@media screen and (max-width:412px) {
+    .imgCarousel{
+        max-height: 300px;
+    }
+    
 }

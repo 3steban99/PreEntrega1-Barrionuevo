@@ -4,7 +4,7 @@
 }
 
 .img-detalle{
-    height: 500px;
+    max-height: 500px;
     width: 500px;
     object-fit: cover;
 }
@@ -27,5 +27,30 @@
 }
 
 .contendor_article-section-p{
+    display: flex;
+    justify-content: flex-start;
     text-align: left;
+}
+
+.p-titulo{
+    padding-right: 10px;
+    font-weight: bold;
+}
+
+
+
+p{
+    font-family: sans-serif;
+}
+
+
+@media screen and (max-width: 991px){
+    .img-detalle{
+        max-height: 400px;
+    }
+}
+@media screen and (max-width: 767px){
+    .img-detalle{
+        max-height: 350px;
+    }
 }

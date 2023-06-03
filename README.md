@@ -1,3 +1,43 @@
+# Proyecto ecommerce TuClub
+
+Hola, este es un proyecto del curso de **CoderHouse** de React.js. En la cual es un proyecto de ecommerce de una tienda mayorista. Elegi crear un proyecto de una tienda de indumentaria deportiva (mayorista), en la cual sigue en desarrollo para su venta. Se creo en visual Studio code, con React, los estilos fueron con css y Bootstrap 5 y su base de datos en Firebase.
+
+
+# Funciones de la pagina
+
+La funcion principal del ecommerce **TuClub** es la compra de indumentaria deportiva, en la cual tiene un home en donde hay un carousel y una presentacion de las cosas que tiene la pagina. Tiene un navegador y un carrito, en la cual desde el navegador tambien se puede dirigir a las diferentes categorias de la tienda.
+Para la compra la pagina muestra todos los productos en la cual se puede elegir y con un contador elegir la cantidad especifica para comprar, despues se lo manda al carrito de compra en donde se muestra la cantidad elegida.
+Cuando se selecciona el **carrito**, muestra todos los productos seleccionados para la compra, despues cuando se quiere realizar la compra, muestra una pantalla para ingresar datos del cliente para que se genere una orden. Luego se genera la orden y se muestra. Todos esos datos son de **Firebase** y las ordenes se generan alli.
+Por ultimo cuanta con diferentes paginas con informacion como la de **Preguntas frecuentes**, **Contactos** y un **Footer** en donde se muestra todo tipo de informacion como las tiendas, las redes, etc. Tambien la pagina es **responsive** en la cual sigue en desarrollo para mejor vision.
+
+
+## NPM y ENLACES.
+
+A continuacion voy a poner las **npm** que instale para el proyecto:
+
+ - `npm install firebase`   Es la instalacion de la base de firebase.
+ - `npm install bootstrap` Es la instalacion de la biblioteca de bootstrap5.
+ - `npm install bootstrap-icons` Es la instalacion de la biblioteca de los iconos de bootstrap.
+ - `npm install sweetalert` Es la instalacion para poder usar los diferentes sweetalert, en la cual se usa cuando se genera la order.
+ 
+ Algunos enlaces:
+ 
+ - `<link  rel="preconnect"  href="https://fonts.googleapis.com">`
+   `<link  rel="preconnect"  href="https://fonts.gstatic.com"  crossorigin>`
+    `<link  href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"  rel="stylesheet">` Esto es para la fuente que se utiliza en algunos caso, como por ejemplo: en el **navbar**.
+    
+ - `<link  href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"  rel="stylesheet"  integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"  crossorigin="anonymous">`
+`<script  src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"  integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"  crossorigin="anonymous"></script>` Esto es para que funcione algunas cosas del Bootstrap.
+
+## Redes de la tienda y creador del proyecto
+
+ **Creador:**   Esteban Ignacio Barrionuevo    **[Instagram](https://www.instagram.com/3steban.barrionuevo/)**
+  
+**Redes de TuClub:**  **[Instagram](https://www.instagram.com/tu.club10/)**, **[Facebook](https://www.facebook.com/profile.php?id=100063552429807)**.
+
+
+# Instrucciones default de react:
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

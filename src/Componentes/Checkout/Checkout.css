@@ -1,0 +1,8 @@
+.swal-button{
+    background-color: var(--bs-gray-600);
+}
+
+
+.swal-button:hover{
+    background-color: var(--bs-gray-800) !important;
+}

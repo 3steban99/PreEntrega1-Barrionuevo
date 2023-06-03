@@ -16,13 +16,13 @@ function ControlledCarousel() {
             <Carousel.Item>
                 <img
                     className="d-block w-100 imgCarousel img-fluid"
-                    src={ventaMayor}
+                    src={ventaMayor} 
                     alt="venta mayor"
                 />
             </Carousel.Item>
             <Carousel.Item>
                 <img
-                    className="d-block w-100 imgCarousel"
+                    className="d-block w-100 imgCarousel img-fluid"
                     src={info}
                     alt="info venta mayor"
                 />

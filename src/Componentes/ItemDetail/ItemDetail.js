@@ -35,13 +35,13 @@ const ItemDetail = ({ id, name, img, category, description, price, stock }) => {
                 </header>
                 <section class='contendor_article-section'>
                     <p class='contendor_article-section-p'>
-                        Categoria: {category}
+                        <p class='p-titulo'>Categoria:</p>{category}
                     </p>
                     <p class='contendor_article-section-p'>
-                        Descripcion: {description}
+                        <p class='p-titulo'>Descripcion:</p>{description}
                     </p>
                     <p class='contendor_article-section-p'>
-                        Precio: ${price}
+                        <p class='p-titulo'>Precio:</p> ${price}
                     </p>
                 </section>
                 <footer>

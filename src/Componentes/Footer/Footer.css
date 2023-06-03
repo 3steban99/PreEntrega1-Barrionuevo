@@ -38,3 +38,9 @@
 .footer-titulo{
     font-family: 'Open Sans', sans-serif;
 }
+
+
+.footer-preguntas{
+    display: flex;
+    flex-direction: column;
+}

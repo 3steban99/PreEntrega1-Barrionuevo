@@ -44,7 +44,7 @@ const ItemDetail = ({ id, name, img, category, description, price, stock }) => {
                         <p class='p-titulo'>Precio:</p> ${price}
                     </p>
                 </section>
-                <footer>
+                <footer class='footer-contador'>
                     {
                         quantityAdded > 0 ? (
                             <Link to='/cart' class='btn btn-secondary'>Terminar Compra</Link>

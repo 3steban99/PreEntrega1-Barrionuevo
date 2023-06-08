@@ -7,3 +7,21 @@ p{
     font-family: sans-serif;
 }
 
+
+@media screen and (max-width:420px){
+    .card-img-top{
+        height: 350px;
+    }
+}
+
+@media screen and (max-width:375px){
+    .card-img-top{
+        height: 300px;
+    }
+}
+
+@media screen and (max-width:280px){
+    .card-img-top{
+        height: 250px;
+    }
+}

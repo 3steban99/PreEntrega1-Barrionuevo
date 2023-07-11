@@ -1,7 +1,7 @@
 .navbar{
     padding: 2rem;
     color: var(--bs-white);
-    background: #fff;
+    background: #EEEEEE;
     border-top: .75px solid #000;
     border-bottom: .75px solid #000;
 }

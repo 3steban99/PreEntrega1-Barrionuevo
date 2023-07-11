@@ -2,11 +2,6 @@
     max-height: 709px;
 }
 
-.carousel{
-    margin-left: 5rem;
-    margin-right: 5rem;
-}
-
 
 @media screen and (max-width:1700px) {
     .carousel{

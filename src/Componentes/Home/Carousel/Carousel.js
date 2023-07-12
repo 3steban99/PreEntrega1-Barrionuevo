@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-import ventaMayor from './ventaMayor.jpg'
-import info from './info.jpg'
-import './Carousel.css'
+import ventaMayor from './ventaMayor.png'
+import info from './info.png'
+
 
 function ControlledCarousel() {
     const [index, setIndex] = useState(0);

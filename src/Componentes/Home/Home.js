@@ -5,9 +5,6 @@ import { Link } from 'react-router-dom';
 const Home = () => {
     return (
         <div>
-            <div>
-                <h5 class="carousel-text">Imagenes no creadas para un carousel</h5>
-            </div>
             <ControlledCarousel />
             <div class='container'>
                 <div class='row row-cols-2'>

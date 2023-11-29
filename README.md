@@ -1,6 +1,6 @@
 # Proyecto ecommerce TuClub
 
-Hola, este es un proyecto del curso de **CoderHouse** de React.js. En la cual es un proyecto de ecommerce de una tienda mayorista. Elegi crear un proyecto de una tienda de indumentaria deportiva (mayorista), en la cual sigue en desarrollo para su venta. Se creo en visual Studio code, con React, los estilos fueron con css y Bootstrap 5 y su base de datos en Firebase.
+Hola, este es un proyecto del curso de **CoderHouse** de React.js. En la cual es un proyecto de ecommerce de una tienda mayorista. Elegi crear un proyecto de una tienda de indumentaria deportiva (mayorista). Se creo en visual Studio code, con React, los estilos fueron con css y Bootstrap 5 y su base de datos en Firebase.
 
 
 # Funciones de la pagina
